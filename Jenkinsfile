@@ -1,33 +1,3 @@
-Skip to content
-nagahareesh
-/
-maven-jenkins
-1
-0
-0
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-1
-Insights
-More
-maven-jenkins/Jenkinsfile
-@nagahareesh
-nagahareesh Update Jenkinsfile
-Latest commit 0594182 21 minutes ago
- History
- 2 contributors
-@devopstrainingblr@nagahareesh
-We found a potential security vulnerability in one of your dependencies.
-Only the owner of this repository can see this message.
-
-35 lines (34 sloc)  1.15 KB
-  
 node
 {
     echo "GitHub BranhName ${env.BRANCH_NAME}"
